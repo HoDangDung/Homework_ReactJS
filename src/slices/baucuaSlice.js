@@ -51,7 +51,7 @@ const baucuaSlice = createSlice({
       const xucXac = state.xucXac.map(() => {
         // Math.random() * max - min + min.
         // max = 5, min = 0
-        const index = Math.floor(Math.random() * 5);
+        const index = Math.floor(Math.random() * 6);
         return XUC_XAC[index];
       });
 
